@@ -8,7 +8,7 @@ int n; /* number of subjects (vertices) */
 void addEdge(int u, int v)
 {
     adj[u][v] = 1;
-    adj[v][u] = 1; /* undirected: "related to" */
+    adj[v][u] = 1;  
 }
 
 void BFS(int start)
