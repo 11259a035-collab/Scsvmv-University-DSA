@@ -3,7 +3,7 @@
 
 int adj[MAX][MAX];
 int visited[MAX];
-int n; /* number of subjects (vertices) */
+int n; 
 
 void addEdge(int u, int v)
 {
